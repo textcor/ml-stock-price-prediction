@@ -1,5 +1,3 @@
-# ml-stock-price-prediction
-Stock price prediction using Machine Learning - TensorFlow
 ML Stock Price Prediction
 
 This repository contains code for predicting stock price direction using advanced machine learning techniques, specifically focusing on hourly predictions. The project aims to demonstrate how historical stock data, combined with deep learning models and technical analysis, can be leveraged to build robust predictive models.
