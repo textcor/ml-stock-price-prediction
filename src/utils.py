@@ -75,7 +75,7 @@ def fetch_stock_data(symbol, start_date, end_date):
 
 def get_stock_data(ticker, start_date, end_date, interval='1d'):
     time.sleep(5)
-    api_key = "UlJNQTlPbk52NEJfQWVUOXp2TTZGUHNVOG9ZY3pDNmRITHhaSkpZbWZPaz0"
+    api_key = os.getenv('MARKET_DATA_API', 'your_api_key')
     '''
     days = {'1y': 365, '6mo': 180, '1mo': 30}.get(period, 365)
     start_date = (datetime.now() - pd.Timedelta(days=days)).strftime('%Y-%m-%d')
