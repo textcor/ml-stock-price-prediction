@@ -81,7 +81,6 @@ Output includes:
 ```
 ├── data/                   # Raw and processed data storage
 ├── saved_models/           # Trained models and artifacts
-├── notebooks/              # Exploratory analysis notebooks
 ├── src/
 │   ├── train_hour.py       # Model training pipeline
 │   ├── predict_hour.py     # Prediction system
